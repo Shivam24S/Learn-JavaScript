@@ -48,7 +48,7 @@ class Car {
   }
 }
 
-const carDetails = new Car("G-wagon", "Mercedees");
+const carDetails = new Car("G-wagon", "Mercedes");
 
 const carResult = carDetails.model();
 

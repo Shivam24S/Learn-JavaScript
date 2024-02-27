@@ -21,3 +21,11 @@ function findMax() {
 let x = findMax(10, 20, 30, 40, 50, 60, 70, 80);
 
 console.log("op for max value =>", x);
+
+// note simplest way to  find max is
+
+let num = [10, 20, 30, 40, 50, 60, 70, 80];
+
+let maxNum = Math.max(...num);
+
+console.log("max value =>", maxNum);

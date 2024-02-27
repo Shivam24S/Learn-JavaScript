@@ -1,4 +1,4 @@
-// promise chainning another example
+// promise chaining another example
 
 let age = 18;
 

@@ -1,5 +1,5 @@
 // Abstraction example
-function person(fname, lname) {
+function Person(fname, lname) {
   let firstname = fname;
   let lastname = lname;
 
@@ -13,7 +13,7 @@ function person(fname, lname) {
 			name is: ${lastname}`;
   };
 }
-let person1 = new person("Mukul", "Latiyan");
+let person1 = new Person("john", "doe");
 console.log(person1.firstname);
 console.log(person1.getDetails_noaccess);
 console.log(person1.getDetails_access());

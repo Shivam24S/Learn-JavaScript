@@ -38,8 +38,8 @@ const personsDetails = [
     age: 25,
   },
   {
-    name: "nareshBhai",
-    surname: "vadhvana",
+    name: "rakesh",
+    surname: "sharma",
     age: 28,
   },
 ];

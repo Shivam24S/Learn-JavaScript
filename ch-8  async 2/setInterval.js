@@ -16,4 +16,4 @@ function showTime() {
 
 setInterval(showTime, 1000);
 
-//  as you can see above example setInterval method excute  the show time method after every second
+//  as you can see above example setInterval method execute  the show time method after every second

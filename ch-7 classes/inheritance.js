@@ -7,7 +7,7 @@
 // By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
 //Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
 
-// example of classs inheritance
+// example of class inheritance
 
 class Car {
   constructor(brand) {
@@ -58,3 +58,30 @@ class Details extends Person {
 const personDetails = new Details("shiv", 22);
 
 console.log("person details example result=>", personDetails.show());
+
+// another example of class inheritance
+
+class Bike {
+  constructor(brand) {
+    this.brand = brand;
+  }
+  bikeBrand() {
+    return "i have " + this.brand + " brand ";
+  }
+}
+
+class bikeModel extends Bike {
+  constructor(brand, model) {
+    super(brand);
+    this.model = model;
+  }
+  bikeModelName() {
+    return this.bikeBrand() + " " + this.model + " bike";
+  }
+}
+
+const bikeOne = new bikeModel("kawasaki", "ninja");
+
+const BikeDetail = bikeOne.bikeModelName();
+
+console.log("bikeDetail example result=>", BikeDetail);

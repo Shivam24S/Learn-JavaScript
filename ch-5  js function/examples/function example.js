@@ -14,8 +14,8 @@
 //     age: 25,
 //   }),
 //   (secondPerson = {
-//     name: "nareshBhai",
-//     surname: "vadhvana",
+//     name: "ramesBhai",
+//     surname: "sharma",
 //     age: 28,
 //   }),
 // ];

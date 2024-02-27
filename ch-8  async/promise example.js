@@ -10,7 +10,7 @@ function displayingResult(result) {
   console.log(result);
 }
 
-// here i m prudecing my code
+// here i m producing my code
 
 let promiseExample = new Promise(function (myResolveFunc, myRejectFunc) {
   let x = 10;

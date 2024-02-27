@@ -1,6 +1,6 @@
 // prototype	Allows you to add properties and methods to an Array object
 
-Array.prototype.customeFunction = function () {
+Array.prototype.customFunction = function () {
   for (let i = 0; i < this.length; i++) {
     this[i] = this[i].toUpperCase();
   }
@@ -8,9 +8,9 @@ Array.prototype.customeFunction = function () {
 
 let alphabet = ["abcdefghijklmnopqrstuvwxy"];
 
-alphabet.customeFunction();
+alphabet.customFunction();
 console.log(alphabet);
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.customeFunction();
+fruits.customFunction();
 console.log(fruits);

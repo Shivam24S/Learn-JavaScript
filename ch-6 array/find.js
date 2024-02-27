@@ -51,7 +51,7 @@ const checkingAge = age.findIndex(checkAge);
 
 console.log("find Index op => ", checkingAge);
 
-// findlast example
+// findLast example
 
 // findLast()	Returns the value of the last element in an array that pass a test
 

@@ -63,3 +63,27 @@ promiseObject.then((result) => {
 promiseObject.catch((err) => {
   console.log(err);
 });
+
+// another example of promise
+
+let number = 24;
+
+const checkNum = new Promise(function (resolve, reject) {
+  if (number > 0) {
+    setTimeout(() => {
+      resolve("number is positive");
+    }, 2000);
+  } else if (number < 0) {
+    setTimeout(() => {
+      reject("number is negative");
+    }, 2000);
+  }
+});
+
+checkNum.then((result) => {
+  console.log("result of promise resolve =>", result);
+});
+
+checkNum.catch((err) => {
+  console.log("result of promise reject =>", err);
+});

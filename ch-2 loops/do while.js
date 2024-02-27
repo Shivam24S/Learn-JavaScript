@@ -2,6 +2,7 @@
 The do…while loop can be used to execute a specific block of code at least once
 
 Entry Controlled loops: In this type of loop, the test condition is tested before entering the loop body. For Loop and While Loops are entry-controlled loops.
+
 Exit Controlled Loops: In this type of loop the test condition is tested or evaluated at the end of the loop body. Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. the do-while loop is exit controlled loop.
 
 
@@ -9,9 +10,9 @@ Exit Controlled Loops: In this type of loop the test condition is tested or eval
 
 
 
-*/ 
+*/
 
-// it will execute once  even if condition not met 
+// it will execute once  even if condition not met
 
 let test1 = 4;
 
@@ -24,7 +25,7 @@ do {
 let test = 4;
 
 do {
-  console.log("do while op it will exucute all the value", test);
+  console.log("do while op it will execute all the value", test);
   test++;
 } while (test <= 10);
 

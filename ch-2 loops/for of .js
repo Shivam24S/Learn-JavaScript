@@ -13,3 +13,11 @@ let str = "hello world";
 for (let op of str) {
   console.log("str op", op);
 }
+
+// another example
+
+let fruits = ["apple", "banana", "orange", "mango"];
+
+for (let i of fruits) {
+  console.log("fruits op =>", i);
+}

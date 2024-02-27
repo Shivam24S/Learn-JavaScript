@@ -18,3 +18,18 @@ const person2 = {
 };
 
 console.log(person.fullName.apply(person2, ["newYork", "USA"]));
+
+// another exam[ple of apply method
+
+const car = {
+  carDetail: function (engine, color) {
+    return this.brand + " " + this.model + " " + engine + " " + color;
+  },
+};
+
+const carDetail2 = {
+  brand: "BMW",
+  model: "M5",
+};
+
+console.log(car.carDetail.apply(carDetail2, ["v8", "black"]));

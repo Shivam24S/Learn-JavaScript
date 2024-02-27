@@ -42,3 +42,17 @@ if (number > 0) {
 } else {
   console.log("number is 0");
 }
+
+// if else another example
+
+let time = new Date().getHours();
+
+// console.log("time", time);
+
+if (time < 12) {
+  console.log("good morning");
+} else if (time < 18) {
+  console.log("good afternoon");
+} else {
+  console.log("good evening");
+}

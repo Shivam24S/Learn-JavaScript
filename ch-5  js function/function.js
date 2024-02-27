@@ -1,10 +1,10 @@
 // here i declared my function its called function declaration  its declared it not invoked yet
 // after invoking myFun it will display the function value
 function myFun() {
-  console.log("function decleration");
+  console.log("function declaration");
 }
 
-// here i m invoking myfun
+// here i m invoking myFun
 
 myFun();
 
@@ -14,7 +14,7 @@ myFun();
 
 // example
 
-let multiply = function funExpression(a, b) {
+let multiply = function funcExpression(a, b) {
   return a * b;
 };
 

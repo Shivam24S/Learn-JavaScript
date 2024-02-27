@@ -1,10 +1,10 @@
-function Person(name, age, surName) {
+function Person(name, surName, age) {
   this.firstName = name;
   this.lastName = surName;
   this.ageValue = age;
 }
 
-const personNewObj = new Person("john", 20, "doe");
+const personNewObj = new Person("john", "doe", 20);
 
 console.log(personNewObj);
 

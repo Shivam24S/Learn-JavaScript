@@ -26,12 +26,12 @@ The finally block runs regardless of the result of the try-catch block. */
 // here in this code we are defining our error
 
 // try {
-//   throw new Error("using throw we can throw our custome error");
+//   throw new Error("using throw we can throw our own define error");
 // } catch (err) {
 //   console.log(err);
 // }
 
-// finally it will execute always no metter try catch statement in this code
+// finally it will execute always no matter try catch statement in this code
 
 //try true and finally also true in this example
 

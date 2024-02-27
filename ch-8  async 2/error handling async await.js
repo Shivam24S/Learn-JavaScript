@@ -25,10 +25,10 @@ async function asyncFunc() {
     console.log(err);
   }
 
-  //   we can throw our custome error also
+  //   we can throw our custom error also
 
   //  catch{
-  //     throw new Error("its custome error")
+  //     throw new Error("its custom error")
   // }
 }
 

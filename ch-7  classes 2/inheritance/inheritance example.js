@@ -70,7 +70,7 @@ const carName = car1.carName();
 console.log("car Name =>", carName);
 
 class CarExtended extends CarDetails {
-  constructor(engine, model) {
+  constructor(model, engine) {
     super(model);
     this.engine = engine;
   }

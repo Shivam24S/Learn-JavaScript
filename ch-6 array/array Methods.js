@@ -8,7 +8,7 @@ let indexOfArray = array.at();
 
 console.log("index of array =>", indexOfArray);
 
-//  an array start couting index from 0
+//  an array start counting index from 0
 let indexOfArray1 = array.at(4);
 
 console.log("index of array1 =>", indexOfArray1);
@@ -31,7 +31,7 @@ let arr3 = arr1.concat(arr2);
 
 console.log("arr concat example =>", arr3);
 
-// anothe example of an array
+// another example of an array
 
 //copyWithin()	Copies array elements within the array, to and from specified positions
 

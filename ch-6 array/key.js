@@ -1,4 +1,4 @@
-// it will return total lenght of the array
+// it will return total length of the array
 
 let item = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
 

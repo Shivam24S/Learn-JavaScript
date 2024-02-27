@@ -19,3 +19,11 @@ alphabet.forEach(function (item) {
 });
 
 console.log("op using for each =>", alphabet);
+
+// another example
+
+let alphabetVal = " ";
+
+for (let i of alphabet) {
+  console.log("alphabetVal =>", i);
+}

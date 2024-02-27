@@ -7,11 +7,11 @@ console.log("char At =>", text.charAt(6));
 
 console.log("concat=>", text.concat("good morning"));
 
-//endsWith()	Returns if a string ends with a specified value
+//endsWith()	Returns true if a string ends with a specified value
 
 console.log("ends with=>", text.endsWith("m"));
 
-//includes()	Returns if a string contains a specified value
+//includes()	Returns true if a string contains a specified value
 
 console.log("includes =>", text.includes("s"));
 

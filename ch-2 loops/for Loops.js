@@ -25,7 +25,7 @@ let allFruits = "";
 for (let i = 0; i < len; i++) {
   allFruits += " " + fruits[i];
 }
-console.log(allFruits);
+console.log("fruits op =>", allFruits);
 
 // let i = 3;
 
@@ -43,11 +43,11 @@ console.log(allFruits);
 
 const vegetables = ["potato", "onion", "tomato", "brinjal"];
 
-const lenghOfVeg = vegetables.length;
+const lengthOfVeg = vegetables.length;
 
 let allVegetables = " ";
 
-for (let i = 0; i < lenghOfVeg; i++) {
+for (let i = 0; i < lengthOfVeg; i++) {
   allVegetables += " " + vegetables[i];
 }
 

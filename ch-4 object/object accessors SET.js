@@ -14,18 +14,16 @@ console.log(person.age);
 
 // set method another example
 
-const cars = {
-  firstCar: "bmw",
-  secondCar: "mercedes",
+const car = {
+  firstCar: "BMW",
+  secondCar: "Mercedes",
   thirdCar: "",
 
-  set thirdCarValue(thirdCar) {
-    this.thirdCar = thirdCar;
+  set thirdCarName(thirdCarNameValue) {
+    this.thirdCar = thirdCarNameValue;
   },
 };
 
-cars.thirdCarValue = "Rolls- Royce ";
+car.thirdCarName = "Rolls-Royce";
 
-console.log("op for car set value =>", cars.thirdCar);
-
-console.log(cars);
+console.log("third car name => ", car.thirdCar);

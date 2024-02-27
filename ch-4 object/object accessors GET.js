@@ -5,12 +5,12 @@ const person = {
   surname: "doe",
   age: 22,
 
-  get changeAge() {
+  get personAge() {
     return this.age;
   },
 };
 
-console.log(person.changeAge);
+console.log(person.personAge);
 
 // get method another example
 

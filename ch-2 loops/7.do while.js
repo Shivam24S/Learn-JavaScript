@@ -17,8 +17,8 @@ Exit Controlled Loops: In this type of loop the test condition is tested or eval
 let test1 = 4;
 
 do {
-  console.log("do while op execute once", test1);
   test1++;
+  console.log("do while op execute once", test1);
 } while (test1 >= 10);
 
 // it will execute due to condition satisfied

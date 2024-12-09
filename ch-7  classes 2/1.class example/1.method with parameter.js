@@ -94,3 +94,24 @@ console.log(
     " " +
     " Years old"
 );
+
+// another example
+
+class BrandYear {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+
+  companyYear(year) {
+    return year - this.year;
+  }
+}
+
+const currentYearValue = new Date().getFullYear();
+
+const BrandDetail = new BrandYear("apple", 1990);
+
+const BrandDetailYear = BrandDetail.companyYear(currentYearValue);
+
+console.log("brand Detail Year", BrandDetailYear);

@@ -19,7 +19,7 @@ const person2 = {
 
 console.log(person.fullName.apply(person2, ["newYork", "USA"]));
 
-// another exam[ple of apply method
+// another example of apply method
 
 const car = {
   carDetail: function (engine, color) {

@@ -129,14 +129,14 @@ console.log("lowercase op =>", text.toLowerCase());
 
 console.log("uppercase op =>", text.toUpperCase());
 
-// trim()	Returns a string with removed whitespaces
+// trim()	Returns a string with removed whitespace
 
 let text10 = "                   hello                  ";
-console.log("lentght op text for trim =>", text10.length);
+console.log("length op text for trim =>", text10.length);
 let text11 = text10.trim();
 console.log("trim Op=>", text11.length);
 
-// trimEnd()	Returns a string with removed whitespaces from the end
+// trimEnd()	Returns a string with removed whitespace from the end
 
 let text12 = text10.trimStart();
 let text13 = text10.trimEnd();

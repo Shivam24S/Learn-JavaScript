@@ -81,3 +81,30 @@ const carExample = new CarExtended("red", "v8");
 const carResultValue = carExample.CarSpecification();
 
 console.log("car result value =>", carResultValue);
+
+// another example
+
+class Bike {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class BikeSpecification extends Bike {
+  constructor(name, year, engine) {
+    super(name);
+    this.year = year;
+    this.engine = engine;
+  }
+  BikeDetails() {
+    return this.name + " " + this.year + " " + this.engine;
+  }
+}
+
+const BikeName = new Bike("ninja");
+
+const bikeSpecification = new BikeSpecification("ninja", 2024, "999c");
+
+const BikeFullDetails = bikeSpecification.BikeDetails();
+
+console.log("bike full specification", BikeFullDetails);

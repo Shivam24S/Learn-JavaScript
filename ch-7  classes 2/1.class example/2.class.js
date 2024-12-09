@@ -34,3 +34,19 @@ console.log("car Result", carDetails);
 
 const secondCarDetails = new Car("BMW", "M5");
 console.log("second car Result", secondCarDetails);
+
+// another example
+
+class vehicle {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const vehicleName1 = new vehicle("ninja");
+
+console.log("first Vehicle Name", vehicleName1);
+
+const vehicleName2 = new vehicle("amg 63");
+
+console.log("second Vehicle Name", vehicleName2);

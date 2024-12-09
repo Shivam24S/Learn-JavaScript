@@ -67,3 +67,16 @@ function callBackFunc(total) {
 }
 
 console.log("sum function callback op =>", sum(5, 10, callBackFunc));
+
+// another example of callback
+
+const callBackSumFunc = (result) => {
+  console.log("total =>", result);
+};
+
+const sumOfNumberFunc = (num1, num2, callBackSumFunc) => {
+  const Total = num1 + num2;
+  return callBackSumFunc(Total);
+};
+
+const result = sumOfNumberFunc(5, 10, callBackSumFunc);
